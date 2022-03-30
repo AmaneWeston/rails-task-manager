@@ -1,7 +1,7 @@
 <div class='container'>
   <h1><%= @task.title %></h1>
-  <p><%= @task.details %></p>
+  <p>Details: <%= @task.details %></p>
   <%= link_to 'Back to list📝', tasks_path, class: 'back-to-list' %>
   <%= link_to 'Edit this task✍️', edit_task_path, class: 'edit-this-task' %>
-  <%= link_to 'Remove🗑', task_path(@task), method: :delete, data: { confirm: "Remove #{@task.title}?" } %>
+  <%= link_to 'Remove🗑', task_path(@task), class: 'remove', method: :delete, data: { confirm: "Remove #{@task.title}?" } %>
 </div>
