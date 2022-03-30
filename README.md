@@ -22,7 +22,6 @@ Things you may want to cover:
 * Deployment instructions
 
 * ... -->
-
 # Rails Task Manager
 
 A simple To Do Manager with the basic CRUD features:
@@ -33,14 +32,15 @@ A simple To Do Manager with the basic CRUD features:
 1. As a user, I can edit a task (update title & details)
 1. As a user, I can remove a task
 
-![](https://media.giphy.com/media/0tIenyq32xKXtUmc8F/giphy.gif)
-
+![](https://media.giphy.com/media/Ji2h8jkfyhGvF3yEHo/giphy.gif)
+![](https://media.giphy.com/media/vTu2pZaMMk540xUxof/giphy.gif)
 ## Getting Started
 ### Setup
 
 Install gems
 ```
 bundle install
+```
 ```
 yarn install
 ```
