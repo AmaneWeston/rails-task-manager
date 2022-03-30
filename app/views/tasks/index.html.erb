@@ -2,14 +2,15 @@
   <h1>My Tasks</h1>
   <% @tasks.each do |task| %>
     <div class="task">
-        <div class="d-flex">
-          <i class="far fa-square"></i>
-        </div>
-        <li>
-          <%= link_to task_path(task['id']) do %>
+      <%# <div class="d-flex">
+
+        </div> %>
+      <li>
+        <i class="far fa-square"></i>
+        <%= link_to task_path(task['id']), class: "task-title" do %>
           <strong><%= task.title %></strong>
-          <% end %>
-        </li>
+        <% end %>
+      </li>
     </div>
   <% end %>
   <%= link_to 'Add new task', new_task_path, class: 'add-new-task' %>

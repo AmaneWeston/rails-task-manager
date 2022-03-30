@@ -2,11 +2,45 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
 
-a, .task-link, .add-new-task {
+body {
+  background-color: #FDF6EC;
+}
+
+.container {
+  margin: 0 auto;
+  text-align: center;
+  font-family: 'Fuzzy Bubbles', cursive;
+  font-size: 28px;
+  color: #DAB88B;
+}
+
+h1 {
+  margin: 24px;
+}
+
+.task-title, .add-new-task {
   text-decoration: none;
 }
 
-// .container {
-//   margin: 4px;
-//   padding: 4px;
-// }
+li {
+  padding-bottom: 8px;
+  list-style-type: none;
+  text-align: left;
+}
+
+i {
+  color:#B7CADB;
+}
+
+.back-to-list, .edit-this-task, .remove {
+  text-decoration: none;
+  margin-right: 8px;
+}
+
+.form-control {
+  margin-bottom: 16px;
+}
+
+.btn {
+  margin-bottom: 24px;
+}
