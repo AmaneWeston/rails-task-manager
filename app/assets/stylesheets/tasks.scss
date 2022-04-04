@@ -2,12 +2,19 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
 
+html {
+  height: 100%;
+}
+
 body {
   background-color: #FDF6EC;
+  height: 100%;
 }
 
 .container {
+  min-height: calc(100vh - 100px);
   margin: 0 auto;
+  padding-top: 64px;
   text-align: center;
   font-family: 'Fuzzy Bubbles', cursive;
   font-size: 28px;
